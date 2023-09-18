@@ -1,0 +1,22 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.qrBox{
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+}
+#qrQr{
+    object-fit: cover;
+}
